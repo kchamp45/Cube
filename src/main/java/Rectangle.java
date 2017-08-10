@@ -39,5 +39,8 @@ public class Rectangle {
             return false;
         }
     }
+    public int area() {
+        return height * width;
+    }
 
 }
